@@ -1,168 +1,166 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>オフィス スクエア | 店舗設計・施工、住宅リフォーム、厨房設備・給排水設備工事</title>
-  <meta name="description" content="名古屋市北区のオフィス スクエアは、店舗設計・施工、住宅リフォーム・リノベーション、厨房設備工事、給排水設備工事を承ります。確かな技術で理想の空間をかたちにします。">
-  <meta name="format-detection" content="telephone=no">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="オフィス スクエア | 店舗設計・施工、住宅リフォーム">
-  <meta property="og:description" content="店舗設計・施工から住宅リフォーム、厨房設備・給排水設備工事まで。安心して任せられる施工をご提供します。">
-  <meta property="og:url" content="https://example.com/office-square/">
-  <meta property="og:image" content="assets/images/ogp.svg">
-  <meta property="og:locale" content="ja_JP">
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>オフィス スクエア｜店舗設計・施工・住宅リフォーム</title>
+  <meta name="description" content="名古屋市北区のオフィス スクエア。店舗設計・施工、住宅リフォーム・リノベーション、厨房設備工事、給排水設備工事まで幅広く対応します。" />
+  <meta property="og:title" content="オフィス スクエア｜店舗設計・施工・住宅リフォーム" />
+  <meta property="og:description" content="店舗設計・施工から住宅リフォーム・リノベーションまで。理想の空間を、確かな技術でかたちに。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/images/logo-office-square.jpeg" />
+  <link rel="icon" href="assets/images/logo-office-square.png" />
+  <link rel="apple-touch-icon" href="assets/images/logo-office-square.png" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="オフィス スクエア TOPへ">
-      <img src="assets/icons/logo.svg" alt="オフィス スクエア" class="brand__logo">
-      <span class="brand__name">OFFICE SQUARE</span>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="オフィス スクエア トップへ">
+      <img src="assets/images/logo-office-square.png" alt="OFFICE SQUARE ロゴ" />
+      <span>
+        <strong>OFFICE SQUARE</strong>
+        <small>オフィス スクエア</small>
+      </span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="global-nav" data-nav-toggle>
-      <span></span><span></span><span></span>
-      <span class="sr-only">メニュー</span>
-    </button>
-    <nav id="global-nav" class="global-nav" data-nav>
-      <a href="#services">事業内容</a>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <a href="#service">事業内容</a>
       <a href="#works">施工事例</a>
       <a href="#company">会社概要</a>
       <a href="#contact">お問い合わせ</a>
     </nav>
   </header>
 
-  <main id="top">
-    <section class="hero section">
-      <div class="hero__inner reveal">
-        <img src="assets/icons/logo.svg" alt="オフィス スクエア ロゴ" class="hero__logo">
-        <p class="hero__en">OFFICE SQUARE</p>
-        <h1>オフィス スクエア</h1>
-        <p class="hero__lead">店舗設計・施工<br>住宅リフォーム・リノベーション</p>
-        <p class="hero__copy">理想の空間を、<br class="sp-only">確かな技術でかたちに。</p>
-      </div>
-    </section>
-
-    <section class="intro section" aria-labelledby="intro-title">
-      <div class="container narrow reveal">
-        <p class="section-label">ABOUT</p>
-        <h2 id="intro-title">安心して任せられる施工を。</h2>
-        <p>店舗設計・施工から住宅リフォーム、厨房設備・給排水設備工事まで。</p>
-        <p>オフィス スクエアは、培ってきた技術と経験で安心して任せられる施工をご提供します。</p>
-      </div>
-    </section>
-
-    <section id="services" class="section services" aria-labelledby="services-title">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-label">SERVICES</p>
-          <h2 id="services-title">事業内容</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card reveal">
-            <span class="service-card__icon" aria-hidden="true">□</span>
-            <h3>店舗改装・住宅リフォーム</h3>
-            <p>店舗の印象づくりから住まいの改善まで、用途に合わせた空間を丁寧に施工します。</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-card__icon" aria-hidden="true">⌁</span>
-            <h3>厨房設備工事</h3>
-            <p>業務用厨房の機器配置、衛生面、作業効率に配慮した設備工事を行います。</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-card__icon" aria-hidden="true">◌</span>
-            <h3>給排水設備工事</h3>
-            <p>給水・排水まわりの確かな施工で、店舗や住宅の快適な利用環境を支えます。</p>
-          </article>
-          <article class="service-card reveal">
-            <span class="service-card__icon" aria-hidden="true">▣</span>
-            <h3>内装リフォーム</h3>
-            <p>素材感と仕上がりを大切に、清潔感と使いやすさを備えた内装へ整えます。</p>
-          </article>
+  <main>
+    <section class="hero" aria-label="メインビジュアル">
+      <div class="hero-inner reveal">
+        <img class="hero-logo" src="assets/images/logo-office-square.png" alt="OFFICE SQUARE" />
+        <p class="hero-name">OFFICE SQUARE</p>
+        <p class="hero-kana">オフィス スクエア</p>
+        <p class="business-line">店舗設計・施工　｜　住宅リフォーム・リノベーション</p>
+        <h1>理想の空間を、<br />確かな技術でかたちに。</h1>
+        <p class="lead">店舗改装・住宅リフォームを中心に、厨房設備工事や給排水設備工事まで、現場に合わせた施工をご提供します。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="tel:09076787996">電話で相談する</a>
+          <a class="btn btn-outline" href="mailto:okuno1919@ruby.plala.or.jp">メールで問い合わせる</a>
         </div>
       </div>
     </section>
 
-    <section id="works" class="section works" aria-labelledby="works-title">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-label">WORKS</p>
-          <h2 id="works-title">施工事例</h2>
-          <p>写真をクリックすると拡大表示できます。</p>
+    <section class="section intro">
+      <div class="section-title reveal">
+        <span>About</span>
+        <h2>店舗と住まいの空間づくりを、丁寧に。</h2>
+      </div>
+      <div class="intro-text reveal">
+        <p>オフィス スクエアは、店舗設計・施工から住宅リフォーム、リノベーションまで、用途やご要望に合わせた空間づくりを行っています。</p>
+        <p>厨房設備工事や給排水設備工事にも対応し、見た目の美しさだけでなく、使いやすさ・安全性・メンテナンス性まで考えた施工を大切にしています。</p>
+      </div>
+    </section>
+
+    <section id="service" class="section service">
+      <div class="section-title reveal">
+        <span>Service</span>
+        <h2>事業内容</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal">
+          <b>01</b>
+          <h3>店舗改装・住宅リフォーム</h3>
+          <p>店舗設計・施工、住宅リフォーム、リノベーションなど、目的に合わせた空間づくりを行います。</p>
+        </article>
+        <article class="service-card reveal">
+          <b>02</b>
+          <h3>厨房設備工事</h3>
+          <p>介護施設や飲食店などの厨房機器の整備・入れ替え・レイアウト調整に対応します。</p>
+        </article>
+        <article class="service-card reveal">
+          <b>03</b>
+          <h3>給排水設備工事</h3>
+          <p>施設・店舗・住宅の給排水設備の新設、修繕、更新工事まで幅広く対応します。</p>
+        </article>
+        <article class="service-card reveal">
+          <b>04</b>
+          <h3>内装リフォーム</h3>
+          <p>壁・床・天井などの改修から、用途に合わせた内装仕上げまで丁寧に施工します。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="works" class="works">
+      <div class="section works-inner">
+        <div class="section-title reveal">
+          <span>Works</span>
+          <h2>施工事例</h2>
         </div>
         <div class="works-grid">
-          <article class="work-card reveal">
-            <button class="work-card__button" type="button" data-lightbox="assets/images/work-kitchen.svg" data-title="老人ホーム厨房設備">
-              <img src="assets/images/work-kitchen.svg" alt="老人ホーム厨房設備の施工写真" loading="lazy">
-            </button>
-            <h3>老人ホーム厨房設備</h3>
-          </article>
-          <article class="work-card reveal">
-            <button class="work-card__button" type="button" data-lightbox="assets/images/work-locker.svg" data-title="スポーツ施設ロッカールーム">
-              <img src="assets/images/work-locker.svg" alt="スポーツ施設ロッカールームの施工写真" loading="lazy">
-            </button>
-            <h3>スポーツ施設ロッカールーム</h3>
-          </article>
-          <article class="work-card reveal">
-            <button class="work-card__button" type="button" data-lightbox="assets/images/work-renovation.svg" data-title="店舗・住宅リフォーム">
-              <img src="assets/images/work-renovation.svg" alt="店舗・住宅リフォームの施工写真" loading="lazy">
-            </button>
-            <h3>店舗・住宅リフォーム</h3>
-          </article>
+          <a class="work-card reveal" href="assets/images/reform.jpeg" target="_blank" rel="noopener">
+            <img src="assets/images/reform.jpeg" alt="店舗・住宅リフォームの施工イメージ" />
+            <div>
+              <p class="tag">Renovation</p>
+              <h3>店舗・住宅リフォーム</h3>
+              <p>店舗改装、住宅リフォーム、リノベーションなど、理想の空間づくりを細部まで丁寧に仕上げます。</p>
+            </div>
+          </a>
+          <a class="work-card reveal" href="assets/images/kitchen.jpeg" target="_blank" rel="noopener">
+            <img src="assets/images/kitchen.jpeg" alt="老人ホーム厨房設備の施工イメージ" />
+            <div>
+              <p class="tag">Kitchen</p>
+              <h3>老人ホーム厨房設備</h3>
+              <p>厨房機器の入れ替えや設備まわりの整備など、衛生面と作業効率を考慮した環境づくりを行います。</p>
+            </div>
+          </a>
+          <a class="work-card reveal" href="assets/images/locker.jpeg" target="_blank" rel="noopener">
+            <img src="assets/images/locker.jpeg" alt="スポーツ施設ロッカールームの施工イメージ" />
+            <div>
+              <p class="tag">Locker Room</p>
+              <h3>スポーツ施設ロッカールーム</h3>
+              <p>スポーツ施設や公共施設のロッカールーム新設・改修など、快適に使える空間を施工します。</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
 
-    <section id="company" class="section company" aria-labelledby="company-title">
-      <div class="container narrow reveal">
-        <p class="section-label">COMPANY</p>
-        <h2 id="company-title">会社概要</h2>
-        <dl class="company-list">
-          <div><dt>会社名</dt><dd>オフィス スクエア</dd></div>
-          <div><dt>代表</dt><dd>奥野 新治<br><span>Shinji Okuno</span></dd></div>
-          <div><dt>所在地</dt><dd>〒462-0058<br>名古屋市北区西志賀町3-8-6</dd></div>
-          <div><dt>TEL</dt><dd><a href="tel:0529827383">052-982-7383</a></dd></div>
-          <div><dt>FAX</dt><dd>052-982-7383</dd></div>
-          <div><dt>Mobile</dt><dd><a href="tel:09076787996">090-7678-7996</a></dd></div>
-          <div><dt>Mail</dt><dd><a href="mailto:okuno1919@ruby.plala.or.jp">okuno1919@ruby.plala.or.jp</a></dd></div>
-        </dl>
+    <section id="company" class="section company">
+      <div class="section-title reveal">
+        <span>Company</span>
+        <h2>会社概要</h2>
       </div>
+      <dl class="company-list reveal">
+        <div><dt>会社名</dt><dd>オフィス スクエア</dd></div>
+        <div><dt>代表</dt><dd>奥野 新治 / Shinji Okuno</dd></div>
+        <div><dt>所在地</dt><dd>〒462-0058<br class="sp-only" /> 名古屋市北区西志賀町3-8-6</dd></div>
+        <div><dt>TEL</dt><dd><a href="tel:0529827383">052-982-7383</a></dd></div>
+        <div><dt>FAX</dt><dd>052-982-7383</dd></div>
+        <div><dt>Mobile</dt><dd><a href="tel:09076787996">090-7678-7996</a></dd></div>
+        <div><dt>Mail</dt><dd><a href="mailto:okuno1919@ruby.plala.or.jp">okuno1919@ruby.plala.or.jp</a></dd></div>
+      </dl>
     </section>
 
-    <section id="contact" class="section contact" aria-labelledby="contact-title">
-      <div class="container contact__inner reveal">
-        <p class="section-label">CONTACT</p>
-        <h2 id="contact-title">お問い合わせ</h2>
-        <p>店舗・住宅の施工、設備工事のご相談はお気軽にお問い合わせください。</p>
-        <div class="contact-actions">
-          <a class="contact-card" href="tel:0529827383"><span>電話</span><strong>052-982-7383</strong></a>
-          <a class="contact-card" href="mailto:okuno1919@ruby.plala.or.jp"><span>メール</span><strong>okuno1919@ruby.plala.or.jp</strong></a>
+    <section id="contact" class="contact">
+      <div class="contact-inner reveal">
+        <span>Contact</span>
+        <h2>店舗・住宅の施工、設備工事のご相談など<br />お気軽にお問い合わせください。</h2>
+        <div class="contact-buttons">
+          <a class="btn btn-primary" href="tel:09076787996">090-7678-7996</a>
+          <a class="btn btn-outline-light" href="mailto:okuno1919@ruby.plala.or.jp">メールで問い合わせる</a>
         </div>
-        <a class="button" href="mailto:okuno1919@ruby.plala.or.jp?subject=ホームページからのお問い合わせ">お問い合わせボタン</a>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container site-footer__inner">
-      <p>オフィス スクエア<br>〒462-0058 名古屋市北区西志賀町3-8-6</p>
-      <p><small>&copy; <span data-year></span> OFFICE SQUARE. All Rights Reserved.</small></p>
-    </div>
+  <footer class="footer">
+    <img src="assets/images/logo-office-square.png" alt="OFFICE SQUARE" />
+    <p>オフィス スクエア</p>
+    <p>〒462-0058 名古屋市北区西志賀町3-8-6</p>
+    <small>&copy; OFFICE SQUARE. All Rights Reserved.</small>
   </footer>
 
-  <div class="lightbox" data-lightbox-modal aria-hidden="true" role="dialog" aria-modal="true" aria-label="施工事例の拡大画像">
-    <button class="lightbox__close" type="button" data-lightbox-close aria-label="閉じる">×</button>
-    <figure>
-      <img src="" alt="" data-lightbox-image>
-      <figcaption data-lightbox-caption></figcaption>
-    </figure>
+  <div class="fixed-contact" aria-label="固定お問い合わせ">
+    <a href="tel:09076787996">電話</a>
+    <a href="mailto:okuno1919@ruby.plala.or.jp">メール</a>
   </div>
 
-  <script src="script.js" defer></script>
+  <script src="script.js"></script>
 </body>
 </html>
